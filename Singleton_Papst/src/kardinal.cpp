@@ -7,9 +7,19 @@
 
 #include "kardinal.h"
 
+Kardinal::Kardinal() {
+	meinPapst_ = nullptr;
+}
+
+Kardinal::~Kardinal() {
+	meinPapst_ = nullptr;
+}
+
+
 void Kardinal::papst_waehlen(std::string wunschname) {
+	meinPapst_ = Papst::getPapst(wunschname);
+}
 
-	Papst* papst_ = Papst::getPapst(wunschname);
-	std::cout << papst_->getName() << std::endl;
-
+Papst* Kardinal::getPapst_() {
+	return meinPapst_;
 }
