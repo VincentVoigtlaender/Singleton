@@ -13,9 +13,11 @@ int main() {
 	Kardinal kardinal_1;
 	Kardinal kardinal_2;
 
+	kardinal1.papst_waehlen("Benedikt der XVI.");
+	std::cout << kardinal1.getPapst_()->getName() << " an Adresse " << kardinal1.getPapst_() << std::endl;
 
-	kardinal_1.papst_waehlen("Benedikt der XVI.");
-	kardinal_2.papst_waehlen("Franziskus");
+	kardinal2.papst_waehlen("Franziskus");
+	std::cout << kardinal2.getPapst_()->getName() << " an Adresse " << kardinal2.getPapst_() << std::endl;
 
 
 	return 0;
