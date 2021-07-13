@@ -12,12 +12,15 @@
 
 class Kardinal
 {
+private:
+	Papst* meinPapst_;
 
 public:
-	Kardinal() {}; // Konstruktor
-	~Kardinal() {}; // Destruktor
+	Kardinal(); // Konstruktor
+	~Kardinal(); // Destruktor
 
 	void papst_waehlen(std::string wunschname);
+	Papst* getPapst_();
 
 };
 
