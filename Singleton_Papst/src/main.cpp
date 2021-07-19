@@ -10,8 +10,8 @@
 
 int main() {
 
-	Kardinal kardinal_1;
-	Kardinal kardinal_2;
+	Kardinal kardinal1;
+	Kardinal kardinal2;
 
 	kardinal1.papst_waehlen("Benedikt der XVI.");
 	std::cout << kardinal1.getPapst_()->getName() << " an Adresse " << kardinal1.getPapst_() << std::endl;
