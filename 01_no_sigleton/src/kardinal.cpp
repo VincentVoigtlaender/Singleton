@@ -7,6 +7,7 @@
 
 #include "kardinal.h"
 
+
 Kardinal::Kardinal() {
 	meinPapst_ = nullptr;
 }

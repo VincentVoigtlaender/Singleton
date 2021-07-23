@@ -10,6 +10,7 @@
 
 #include "papst.h"
 
+
 class Kardinal
 {
 private:
