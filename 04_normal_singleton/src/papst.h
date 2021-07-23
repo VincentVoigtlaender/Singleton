@@ -41,5 +41,4 @@ public:
 
 };
 
-
 #endif /* PAPST_H_ */
